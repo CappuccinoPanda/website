@@ -3,9 +3,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Jon Barron</title>
+    <title>David Matthews</title>
 
-    <meta name="author" content="Jon Barron">
+    <meta name="author" content="David Matthews">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico"
       type="image/x-icon">
@@ -23,14 +23,14 @@
                 <tr style="padding:0px">
                   <td style="padding:2.5%;width:63%;vertical-align:middle">
                     <p class="name" style="text-align: center;">
-                      Jon Barron
+                      David Matthews
                     </p>
-                    <p>I'm a research scientist at <a
-                        href="https://deepmind.google/">Google DeepMind</a> in
-                      San Francisco, where I lead a small team that mostly works
-                      on <a href="https://www.matthewtancik.com/nerf">NeRF</a>.
+                    <p>I'm a Ph.D. Student at
+                      <a href="https://www.northwestern.edu">Northwestern University</a> 
+                      in the Prof. Kriegman's <a href="https://www.xenobot.group">Xenoobot Lab</a>,
+                      where I work on AI robot design, and self-modeling.
                     </p>
-                    <p>
+                    <!-- <p>
                       At Google I've worked on <a
                         href="https://www.google.com/glass/start/">Glass</a>, <a
                         href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens
@@ -50,24 +50,24 @@
                         Malik</a>. I've received the <a
                         href="https://www.thecvf.com/?page_id=413#YRA">PAMI
                         Young Researcher Award</a>.
-                    </p>
+                    </p> -->
                     <p style="text-align:center">
-                      <a href="mailto:jonbarron@gmail.com">Email</a>
+                      <a href="mailto:david.matthews@northwestern.edu">Email</a>
                       &nbsp;/&nbsp;
-                      <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp;
-                      <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp;
+                      <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp; -->
+                      <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
                       <a
-                        href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a>
+                        href="https://scholar.google.com/citations?hl=en&user=A313IBMAAAAJ">Scholar</a>
+                      <!-- &nbsp;/&nbsp; -->
+                      <!-- <a href="https://twitter.com/jon_barron">Twitter</a> -->
                       &nbsp;/&nbsp;
-                      <a href="https://twitter.com/jon_barron">Twitter</a>
-                      &nbsp;/&nbsp;
-                      <a href="https://github.com/jonbarron/">Github</a>
+                      <a href="https://github.com/cappuccinopanda/">Github</a>
                     </p>
                   </td>
                   <td style="padding:2.5%;width:40%;max-width:40%">
-                    <a href="images/JonBarron.jpg"><img
+                    <a href="imgs2/headshot.jpg"><img
                         style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;"
-                        alt="profile photo" src="images/JonBarron.jpg"
+                        alt="profile photo" src="imgs2/headshot.jpg"
                         class="hoverZoomLink"></a>
                   </td>
                 </tr>
@@ -78,1326 +78,275 @@
                   <td style="padding:20px;width:100%;vertical-align:middle">
                     <h2>Research</h2>
                     <p>
-                      I'm interested in computer vision, deep learning,
+                      I'm intersted in....
+                      <!-- I'm interested in robotics, deep learning,
                       generative AI, and image processing. Most of my research
                       is about inferring the physical world (shape, motion,
                       color, light, etc) from images, usually with radiance
-                      fields. Some papers are <span
+                      fields. -->
+                      Some papers are <span
                         class="highlight">highlighted</span>.
                     </p>
                   </td>
                 </tr>
               </tbody></table>
+
+              <!-- Papers -->
             <table
               style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-                <tr onmouseout="ever_stop()" onmouseover="ever_start()">
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                      <div class="two" id='ever_image'>
-                        <img src='images/ever_after.png' width=100%>
+                    <!-- two image (one is a gif) before and after on hover -->
+                    <!-- RSS 2024 -->
+                    <tr onmouseout="rss2024_stop()"
+                    onmouseover="rss2024_start()">
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                      <div class="one">
+                        <div class="two" id='rss2024_img'>
+                          <img src='imgs2/RSS2024.gif' width=100%>
+                        </div>
+                        <img src='imgs2/RSS2024.png' width="160">
                       </div>
-                      <img src='images/ever_before.png' width=100%>
-                    </div>
-                    <script type="text/javascript">
-                      function ever_start() {
-                        document.getElementById('ever_image').style.opacity = "1";
+                      <script type="text/javascript">
+                      function rss2024_start() {
+                        document.getElementById('rss2024_img').style.opacity = "1";
                       }
-                      function ever_stop() {
-                        document.getElementById('ever_image').style.opacity = "0";
+
+                      function rss2024_stop() {
+                        document.getElementById('rss2024_img').style.opacity = "0";
                       }
-                      ever_stop()
+                      rss2024_stop()
                     </script>
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://ever.github.io/">
-                      <span class="papertitle">EVER: Exact Volumetric Ellipsoid
-                        Rendering for Real-time View Synthesis</span>
-                    </a>
-                    <br>
-                    <a href="https://half-potato.gitlab.io/">Alexander Mai</a>,
-                    <a href="https://phogzone.com/">Peter Hedman</a>,
-                    <a href="https://grgkopanas.github.io/">George Kopanas</a>,
-                    <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-                    <a
-                      href="https://scholar.google.com/citations?user=ozNFrecAAAAJ&hl=en">David
-                      Futschik</a>,
-                    <a href="https://xharlie.github.io/">Qiangeng Xu</a>,
-                    <a
-                      href="https://jacobsschool.ucsd.edu/faculty/profile?id=253">Falko
-                      Kuester</a>,
-                    <strong>Jonathan T. Barron</strong>,
-                    <a href="https://www.zhangyinda.com/">Yinda Zhang</a>
-                    <br>
-                    <em>arXiv</em>, 2024
-                    <br>
-                    <a href="https://half-potato.gitlab.io/posts/ever/">project
-                      page</a>
-                    /
-                    <a href="https://arxiv.org/abs/2410.01804">arXiv</a>
-                    <p></p>
-                    <p>
-                      Raytracing constant-density ellipsoids yields more
-                      accurate and flexible radiance fields than splatting
-                      Gaussians, and still runs in real-time.
-                    </p>
-                  </td>
-                </tr>
-
-                <tr onmouseout="cat3d_stop()" onmouseover="cat3d_start()"
-                  bgcolor="#ffffd0">
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                      <div class="two" id='cat3d_image'><video width=100%
-                          height=100% muted autoplay loop>
-                          <source src="images/cat3d.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video></div>
-                      <img src='images/cat3d.jpg' width="160">
-                    </div>
-                    <script type="text/javascript">
-          function cat3d_start() {
-            document.getElementById('cat3d_image').style.opacity = "1";
-          }
-
-          function cat3d_stop() {
-            document.getElementById('cat3d_image').style.opacity = "0";
-          }
-          cat3d_stop()
-        </script>
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://cat3d.github.io/">
-                      <span class="papertitle">CAT3D: Create Anything in 3D with
-                        Multi-View Diffusion Models
-                      </span>
-                    </a>
-                    <br>
-                    <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>*,
-                    <a href="https://holynski.org/">Aleksander Holynski</a>*,
-                    <a href="https://henzler.github.io/">Philipp Henzler</a>,
-                    <a href="https://github.com/ArthurBrussee">Arthur
-                      Brussee</a>,
-                    <a href="http://ricardomartinbrualla.com/">Ricardo Martin
-                      Brualla</a>,
-                    <a href="https://pratulsrinivasan.github.io/">Pratul P.
-                      Srinivasan</a>,
-                    <strong>Jonathan T. Barron</strong>,
-                    <a href="https://poolio.github.io/">Ben Poole</a>*
-
-                    <br>
-                    <em>NeurIPS</em>, 2024 &nbsp <font color="red"><strong>(Oral
-                        Presentation)</strong></font>
-                    <br>
-                    <a href="https://cat3d.github.io/">project page</a>
-                    /
-                    <a href="https://arxiv.org/abs/2405.10314">arXiv</a>
-                    <p></p>
-                    <p>
-                      A single model built around diffusion and NeRF that does
-                      text-to-3D, image-to-3D, and few-view reconstruction,
-                      trains in 1 minute, and renders at 60FPS in a browser.
-                    </p>
-                  </td>
-                </tr>
-
-                <tr onmouseout="nerfcasting_stop()"
-                  onmouseover="nerfcasting_start()">
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                      <div class="two" id='nerfcasting_image'><video width=100%
-                          muted autoplay loop>
-                          <source src="images/nerfcasting.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video></div>
-                      <img src='images/nerfcasting.jpg' width=100%>
-                    </div>
-                    <script type="text/javascript">
-          function nerfcasting_start() {
-            document.getElementById('nerfcasting_image').style.opacity = "1";
-          }
-
-          function nerfcasting_stop() {
-            document.getElementById('nerfcasting_image').style.opacity = "0";
-          }
-          nerfcasting_stop()
-        </script>
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://nerf-casting.github.io/">
-                      <span class="papertitle">NeRF-Casting: Improved
-                        View-Dependent Appearance with Consistent
-                        Reflections</span>
-                    </a>
-                    <br>
-
-                    <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-                    <a href="https://pratulsrinivasan.github.io/">Pratul
-                      Srinivasan</a>,
-                    <a href="https://phogzone.com/">Peter Hedman</a>,
-                    <a href="https://benattal.github.io/">Benjamin Attal</a>,
-                    <br>
-                    <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-                    <a href="https://szeliski.org/RichardSzeliski.htm">Richard
-                      Szeliski</a>,
-                    <strong>Jonathan T. Barron</strong>
-                    <br>
-                    <em>SIGGRAPH Asia</em>, 2024
-                    <br>
-                    <a href="https://nerf-casting.github.io/">project page</a>
-                    /
-                    <a href="https://arxiv.org/abs/2405.14871">arXiv</a>
-                    <p></p>
-                    <p>
-                      Carefully casting reflection rays lets us synthesize
-                      photorealistic specularities in real-world scenes.
-                    </p>
-                  </td>
-                </tr>
-
-                <tr onmouseout="flash_cache_stop()"
-                  onmouseover="flash_cache_start()">
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                      <div class="two" id='flash_cache_image'><video width=100%
-                          muted autoplay loop>
-                          <source src="images/flash_cache.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video></div>
-                      <img src='images/flash_cache.jpg' width=100%>
-                    </div>
-                    <script type="text/javascript">
-          function flash_cache_start() {
-            document.getElementById('flash_cache_image').style.opacity = "1";
-          }
-
-          function flash_cache_stop() {
-            document.getElementById('flash_cache_image').style.opacity = "0";
-          }
-          flash_cache_stop()
-        </script>
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://benattal.github.io/flash-cache/">
-                      <span class="papertitle">Flash Cache: Reducing Bias in
-                        Radiance Cache Based Inverse Rendering</span>
-                    </a>
-                    <br>
-                    <a href="https://benattal.github.io/">Benjamin Attal</a>,
-                    <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-                    <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-                    <a href="https://phogzone.com/">Peter Hedman</a>, <br>
-                    <strong>Jonathan T. Barron</strong>,
-                    <a href="https://www.cs.cmu.edu/~motoole2/">Matthew
-                      O'Toole</a>,
-                    <a href="https://pratulsrinivasan.github.io/">Pratul P.
-                      Srinivasan</a>
-                    <br>
-                    <em>ECCV</em>, 2024 &nbsp <font color="red"><strong>(Oral
-                        Presentation)</strong></font>
-                    <br>
-                    <a href="https://benattal.github.io/flash-cache/">project
-                      page</a>
-                    /
-                    <a href="TODO">arXiv</a>
-                    <p></p>
-                    <p>
-                      A more physically-accurate inverse rendering system based
-                      on radiance caching for recovering geometry, materials,
-                      and lighting from RGB images of an object or scene.
-                    </p>
-                  </td>
-                </tr>
-
-                <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                      <div class="two" id='nuvo_image'><video width=100% muted
-                          autoplay loop>
-                          <source src="images/nuvo.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video></div>
-                      <img src='images/nuvo.jpg' width=100%>
-                    </div>
-                    <script type="text/javascript">
-          function nuvo_start() {
-            document.getElementById('nuvo_image').style.opacity = "1";
-          }
-
-          function nuvo_stop() {
-            document.getElementById('nuvo_image').style.opacity = "0";
-          }
-          nuvo_stop()
-        </script>
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://pratulsrinivasan.github.io/nuvo/">
-                      <span class="papertitle">Nuvo: Neural UV Mapping for
-                        Unruly 3D Representations</span>
-                    </a>
-                    <br>
-                    <a href="https://pratulsrinivasan.github.io/">Pratul
-                      Srinivasan</a>,
-                    <a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
-                    <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-                    <strong>Jonathan T. Barron</strong>,
-                    <a href="https://bmild.github.io/">Ben Mildenhall</a>
-                    <br>
-                    <em>ECCV</em>, 2024
-                    <br>
-                    <a href="https://pratulsrinivasan.github.io/nuvo/">project
-                      page</a>
-                    /
-                    <a
-                      href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
-                    /
-                    <a href="http://arxiv.org/abs/2312.05283">arXiv</a>
-                    <p></p>
-                    <p>
-                      Neural fields let you recover editable UV mappings for the
-                      challenging geometries produced by NeRF-like models.
-                    </p>
-                  </td>
-                </tr>
-
-                <tr onmouseout="bog_stop()" onmouseover="bog_start()">
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                      <div class="two" id='bog_image'><video width=100% muted
-                          autoplay loop>
-                          <source src="images/bog.jpg" type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video></div>
-                      <img src='images/bog.jpg' width=100%>
-                    </div>
-                    <script type="text/javascript">
-          function bog_start() {
-            document.getElementById('bog_image').style.opacity = "1";
-          }
-
-          function bog_stop() {
-            document.getElementById('bog_image').style.opacity = "0";
-          }
-          bog_stop()
-        </script>
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://creiser.github.io/binary_opacity_grid/">
-                      <span class="papertitle">Binary Opacity Grids: Capturing
-                        Fine Geometric Detail for Mesh-Based View Synthesis
-                      </span>
-                    </a>
-                    <br>
-                    <a href="https://creiser.github.io/">Christian Reiser</a>,
-                    <a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
-                    <a href="https://pratulsrinivasan.github.io/">Pratul
-                      Srinivasan</a>,
-                    <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-                    <a href="https://szeliski.org/RichardSzeliski.htm">Richard
-                      Szeliski</a>,
-                    <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-                    <strong>Jonathan T. Barron</strong>,
-                    <a href="https://phogzone.com/">Peter Hedman</a>*,
-                    <a href="https://www.cvlibs.net/">Andreas Geiger</a>*
-                    <br>
-                    <em>SIGGRAPH</em>, 2024
-                    <br>
-                    <a
-                      href="https://creiser.github.io/binary_opacity_grid/">project
-                      page</a>
-                    /
-                    <a
-                      href="https://www.youtube.com/watch?v=2TPUmGRg8bM">video</a>
-                    /
-                    <a href="https://arxiv.org/abs/2402.12377">arXiv</a>
-                    <p></p>
-                    <p>
-                      Applying anti-aliasing to a discrete opacity grid lets you
-                      render a hard representation into a soft image, and this
-                      enables highly-detailed mesh recovery.
-                    </p>
-                  </td>
-                </tr>
-
-                <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                      <div class="two" id='smerf_image'><video width=100% muted
-                          autoplay loop>
-                          <source src="images/smerf.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video></div>
-                      <img src='images/smerf.jpg' width=100%>
-                    </div>
-                    <script type="text/javascript">
-          function smerf_start() {
-            document.getElementById('smerf_image').style.opacity = "1";
-          }
-
-          function smerf_stop() {
-            document.getElementById('smerf_image').style.opacity = "0";
-          }
-          smerf_stop()
-        </script>
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://smerf-3d.github.io/">
-                      <span class="papertitle">SMERF: Streamable Memory
-                        Efficient Radiance Fields for Real-Time Large-Scene
-                        Exploration</span>
-                    </a>
-                    <br>
-                    <a href="http://www.stronglyconvex.com/about.html">Daniel
-                      Duckworth*</a>,
-                    <a href="https://phogzone.com/">Peter Hedman*</a>,
-                    <a href="https://creiser.github.io/">Christian Reiser</a>,
-                    <a href>Peter Zhizhin</a>,
-                    <a href>Jean-François Thibert</a>,
-                    <a href="https://lucic.ai/">Mario Lučić</a>,
-                    <a href="https://szeliski.org/">Richard Szeliski</a>,
-                    <strong>Jonathan T. Barron</strong>
-                    <br>
-                    <em>SIGGRAPH</em>, 2024 &nbsp <font
-                      color="red"><strong>(Honorable Mention)</strong></font>
-                    <br>
-                    <a href="https://smerf-3d.github.io/">project page</a>
-                    /
-                    <a
-                      href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a>
-                    /
-                    <a href="https://arxiv.org/abs/2312.07541">arXiv</a>
-                    <p></p>
-                    <p>
-                      Distilling a Zip-NeRF into a tiled set of MERFs lets you
-                      fly through radiance fields on laptops and smartphones at
-                      60 FPS.
-                    </p>
-                  </td>
-                </tr>
-
-                <tr onmouseout="eclipse_stop()" onmouseover="eclipse_start()">
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                      <div class="two" id='eclipse_image'><video width=100%
-                          height=100% muted autoplay loop>
-                          <source src="images/eclipse_after.mp4"
-                            type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video></div>
-                      <img src='images/eclipse_before.jpg' width="160">
-                    </div>
-                    <script type="text/javascript">
-        function eclipse_start() {
-          document.getElementById('eclipse_image').style.opacity = "1";
-        }
-
-        function eclipse_stop() {
-          document.getElementById('eclipse_image').style.opacity = "0";
-        }
-        eclipse_stop()
-      </script>
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://dorverbin.github.io/eclipse">
-                      <span class="papertitle">Eclipse: Disambiguating
-                        Illumination and Materials using Unintended
-                        Shadows</span>
-                    </a>
-                    <br>
-                    <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-                    <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-                    <a href="https://phogzone.com/">Peter Hedman</a>, <br>
-                    <strong>Jonathan T. Barron</strong>,
-                    <a href="Todd Zickler">Todd Zickler</a>,
-                    <a href="https://pratulsrinivasan.github.io/">Pratul
-                      Srinivasan</a>
-                    <br>
-                    <em>CVPR</em>, 2024 &nbsp <font color="red"><strong>(Oral
-                        Presentation)</strong></font>
-                    <br>
-                    <a href="https://dorverbin.github.io/eclipse">project
-                      page</a>
-                    /
-                    <a
-                      href="https://www.youtube.com/watch?v=amQLGyza3EU">video</a>
-                    /
-                    <a href="https://arxiv.org/abs/2305.16321">arXiv</a>
-                    <p></p>
-                    <p>
-                      Shadows cast by unobserved occluders provide a
-                      high-frequency cue for recovering illumination and
-                      materials.
-                    </p>
-                  </td>
-                </tr>
-
-                <tr onmouseout="recon_stop()" onmouseover="recon_start()"
-                  bgcolor="#ffffd0">
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                      <div class="two" id='recon_image'><video width=100%
-                          height=100% muted autoplay loop>
-                          <source src="images/recon.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video></div>
-                      <img src='images/recon.png' width="160">
-                    </div>
-                    <script type="text/javascript">
-        function recon_start() {
-          document.getElementById('recon_image').style.opacity = "1";
-        }
-
-        function recon_stop() {
-          document.getElementById('recon_image').style.opacity = "0";
-        }
-        recon_stop()
-      </script>
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://reconfusion.github.io/">
-                      <span class="papertitle">ReconFusion: 3D Reconstruction
-                        with Diffusion Priors</span>
-                    </a>
-                    <br>
-                    <a href="https://www.cs.columbia.edu/~rundi/">Rundi Wu*</a>,
-                    <a href="https://bmild.github.io/">Ben Mildenhall*</a>,
-                    <a href="https://henzler.github.io/">Philipp Henzler</a>,
-                    <a href="https://keunhong.com/">Keunhong Park</a>,
-                    <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>,
-                    <a
-                      href="https://scholar.google.com/citations?user=_pKKv2QAAAAJ&hl=en/">Daniel
-                      Watson</a>,
-                    <a href="https://pratulsrinivasan.github.io/">Pratul P.
-                      Srinivasan</a>,
-                    <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-                    <strong>Jonathan T. Barron</strong>,
-                    <a href="https://poolio.github.io/">Ben Poole</a>,
-                    <a href="https://holynski.org/">Aleksander Holynski*</a>
-                    <br>
-                    <em>CVPR</em>, 2024
-                    <br>
-                    <a href="https://reconfusion.github.io/">project page</a>
-                    /
-                    <a href="https://arxiv.org/abs/2312.02981">arXiv</a>
-                    <p></p>
-                    <p>
-                      Using a multi-image diffusion model as a regularizer lets
-                      you recover high-quality radiance fields from just a
-                      handful of images.
-                    </p>
-                  </td>
-                </tr>
-
-                <tr onmouseout="shinobi_stop()" onmouseover="shinobi_start()">
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                      <div class="two" id='shinobi_image'><video width=100%
-                          height=100% muted autoplay loop>
-                          <source src="images/shinobi.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video></div>
-                      <img src='images/shinobi.jpg' width="160">
-                    </div>
-                    <script type="text/javascript">
-        function shinobi_start() {
-          document.getElementById('shinobi_image').style.opacity = "1";
-        }
-
-        function shinobi_stop() {
-          document.getElementById('shinobi_image').style.opacity = "0";
-        }
-        shinobi_stop()
-      </script>
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://shinobi.aengelhardt.com/">
-                      <span class="papertitle">SHINOBI: Shape and Illumination
-                        using Neural Object Decomposition via BRDF Optimization
-                        In-the-Wild</span>
-                    </a>
-                    <br>
-
-                    <a
-                      href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/andreas-engelhardt/">Andreas
-                      Engelhardt</a>,
-                    <a href="https://amitraj93.github.io/">Amit Raj</a>,
-                    <a href="https://markboss.me/">Mark Boss</a>,
-                    <a href="https://cs.stanford.edu/~yzzhang/">Yunzhi
-                      Zhang</a>,
-                    <a href="https://abhishekkar.info/">Abhishek Kar</a>,
-                    <a href="https://people.csail.mit.edu/yzli/">Yuanzhen
-                      Li</a>,
-                    <a href="https://deqings.github.io/">Deqing Sun</a>,
-                    <a href="http://ricardomartinbrualla.com/">Ricardo Martin
-                      Brualla</a>,
-                    <strong>Jonathan T. Barron</strong>,
-                    <a
-                      href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/">Hendrik
-                      P.A. Lensch</a>,
-                    <a href="https://varunjampani.github.io/">Varun Jampani</a>
-                    <br>
-                    <em>CVPR</em>, 2024
-                    <br>
-                    <a href="https://shinobi.aengelhardt.com/">project page</a>
-                    /
-                    <a
-                      href="https://www.youtube.com/watch?v=m_5kvtlDnl4">video</a>
-                    /
-                    <a href="https://arxiv.org/abs/2401.10171">arXiv</a>
-                    <p></p>
-                    <p>
-                      A class-agnostic inverse rendering solution for turning
-                      in-the-wild images of an object into a relightable 3D
-                      asset.
-                    </p>
-                  </td>
-                </tr>
-
-                <tr onmouseout="internerf_stop()"
-                  onmouseover="internerf_start()">
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                      <div class="two" id='internerf_image'>
-                        <img src='images/internerf_after.jpg' width=100%>
-                      </div>
-                      <img src='images/internerf_before.jpg' width=100%>
-                    </div>
-                    <script type="text/javascript">
-          function internerf_start() {
-            document.getElementById('internerf_image').style.opacity = "1";
-          }
-
-          function internerf_stop() {
-            document.getElementById('internerf_image').style.opacity = "0";
-          }
-          internerf_stop()
-        </script>
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://arxiv.org/abs/2406.11737">
-                      <span class="papertitle">InterNeRF: Scaling Radiance
-                        Fields via Parameter Interpolation</span>
-                    </a>
-                    <br>
-                    <a href="https://clintonjwang.github.io/">Clinton Wang</a>,
-                    <a href="https://phogzone.com/">Peter Hedman</a>,
-                    <a href="https://people.csail.mit.edu/polina/">Polina
-                      Golland</a>,
-                    <strong>Jonathan T. Barron</strong>,
-                    <a href="http://www.stronglyconvex.com/about.html">Daniel
-                      Duckworth</a>
-                    <br>
-                    <em>CVPR Neural Rendering Intelligence</em>, 2024
-                    <br>
-                    <a href="https://arxiv.org/abs/2406.11737">arXiv</a>
-                    <p></p>
-                    <p>
-                      Parameter interpolation enables high-quality large-scale
-                      scene reconstruction and out-of-core training and
-                      rendering.
-                    </p>
-                  </td>
-                </tr>
-
-                <tr onmouseout="difsurvey_stop()"
-                  onmouseover="difsurvey_start()">
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <div class="one">
-                      <div class="two" id='difsurvey_image'><video width=100%
-                          height=100% muted autoplay loop>
-                          <source src="images/difsurvey_video.mp4"
-                            type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video></div>
-                      <img src='images/difsurvey_image.jpg' width="160">
-                    </div>
-                    <script type="text/javascript">
-      function difsurvey_start() {
-        document.getElementById('difsurvey_image').style.opacity = "1";
-      }
-
-      function difsurvey_stop() {
-        document.getElementById('difsurvey_image').style.opacity = "0";
-      }
-      difsurvey_stop()
-    </script>
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <a href="https://arxiv.org/abs/2310.07204">
-                      <span class="papertitle">State of the Art on Diffusion
-                        Models for Visual Computing
-                      </span>
-                    </a>
-                    <br>
-                    <a href="https://ryanpo.com/">Ryan Po</a>,
-                    <a href="https://yifita.netlify.app/">Wang Yifan</a>,
-                    <a href="https://people.mpi-inf.mpg.de/~golyanik/">Vladislav
-                      Golyanik</a>,
-                    <a href="https://kfiraberman.github.io/">Kfir Aberman</a>,
-                    <strong>Jonathan T. Barron</strong>,
-                    <a href="https://www.cs.tau.ac.il/~amberman/">Amit H.
-                      Bermano</a>,
-                    <a href="https://ericryanchan.github.io/">Eric Ryan
-                      Chan</a>,
-                    <a href="https://www.weizmann.ac.il/math/dekel/home">Tali
-                      Dekel</a>,
-                    <a href="https://holynski.org/">Aleksander Holynski</a>,
-                    <a href="https://people.eecs.berkeley.edu/~kanazawa/">Angjoo
-                      Kanazawa</a>,
-                    <a href="https://tml.stanford.edu/">C. Karen Liu</a>,
-                    <a href="https://lingjie0206.github.io/">Lingjie Liu</a>,
-                    <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-                    <a href="https://www.niessnerlab.org/">Matthias Nießner</a>,
-                    <a href="https://ommer-lab.com/people/ommer/">Björn
-                      Ommer</a>,
-                    <a href="https://people.mpi-inf.mpg.de/~theobalt/">Christian
-                      Theobalt</a>,
-                    <a href="https://peterwonka.net/">Peter Wonka</a>,
-                    <a href="https://stanford.edu/~gordonwz/">Gordon
-                      Wetzstein</a>
-                    <br>
-                    <em>Eurographics State-of-the-Art Report<em>, 2024
+                    </td>
+                      <td style="padding:20px;width:75%;vertical-align:middle">
+                        <a href="https://www.roboticsproceedings.org/rss20/p100.pdf">
+                          <span class="papertitle">
+                            Evolution and learning in differentiable robots
+                          </a>
                         <br>
+                        Luke Strgar,
+                        <strong>David Matthews</strong>,
+                        Tyler Hummer,
+                        Sam Kriegman
+                        <br>
+                        <em>Robotics: Science and
+                          Systems Conference (RSS)</em>, 2024 &nbsp
+  
+                        <br>
+                        <a href="https://sites.google.com/view/eldir">project page</a>
+                        /
+                        <a href="https://github.com/lstrgar/ELDiR">code</a>
+                        /
+                        <a href="https://www.roboticsproceedings.org/rss20/p100.pdf">paper</a>
                         <p></p>
                         <p>
-                          A survey of recent progress in diffusion models for
-                          images, videos, and 3D.
+
                         </p>
                       </td>
-                </tr>
+                    </tr>
+                    
+                    <!-- ICRA 2024 -->
+                    <tr>
+                      <td style="padding:16px;width:20%;vertical-align:middle">
+                        <img src="imgs2/ICRA2024.png" alt="Word2Vec to behavior image" style="border-style: none" width=160>
+                      </td>
+                      <td style="padding:20px;width:75%;vertical-align:middle">
+                        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10610048&tag=1">
+                          <span class="papertitle">
+                            Reinforcement learning for freeform robot design
+                          </a>
+                        <br>
+                        Muhan Li,
+                        <strong>David Matthews</strong>,
+                        Sam Kriegman
+                        <br>
+                        <em>IEEE ICRA</em>, 2024 &nbsp
+  
+                        <br>
+                        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10610048&tag=1">paper</a>
+                        <p></p>
+                        <p>
 
-                    <tr onmouseout="camp_stop()" onmouseover="camp_start()">
+                        </p>
+                      </td>
+                    </tr>
+                    
+                    <!-- video play -->
+                    <!-- PNAS 2023 -->
+                    <tr onmouseout="robodiff_stop()"
+                      onmouseover="robodiff_start()" bgcolor="#ffffd0">
                       <td style="padding:20px;width:25%;vertical-align:middle">
                         <div class="one">
-                          <div class="two" id='camp_image'><video width=100%
+                          <div class="two" id='robodiff_img'><video width=100%
                               height=100% muted autoplay loop>
-                              <source src="images/camp.mp4" type="video/mp4">
+                              <source src="imgs2/00a_heartbeat_realtime.mov" type="video/mp4">
                               Your browser does not support the video tag.
-                            </video></div>
-                          <img src='images/camp.png' width="160">
+                            </video>
+                          </div>
+                          <img src='imgs2/PNAS_2023.png' width="160">
                         </div>
                         <script type="text/javascript">
-          function camp_start() {
-            document.getElementById('camp_image').style.opacity = "1";
-          }
+                        function robodiff_start() {
+                          document.getElementById('robodiff_img').style.opacity = "1";
+                        }
 
-          function camp_stop() {
-            document.getElementById('camp_image').style.opacity = "0";
-          }
-          camp_stop()
-        </script>
+                        function robodiff_stop() {
+                          document.getElementById('robodiff_img').style.opacity = "0";
+                        }
+                        robodiff_stop()
+                      </script>
                       </td>
                       <td style="padding:20px;width:75%;vertical-align:middle">
-                        <a href="https://camp-nerf.github.io/">
-                          <span class="papertitle">CamP: Camera Preconditioning
-                            for Neural Radiance Fields</span>
+                        <a href="https://robodiff.github.io">
+                          <span class="papertitle">Efficient automatic design of robots</span>
                         </a>
                         <br>
-                        <a href="https://keunhong.com/">Keunhong Park</a>,
-                        <a href="https://henzler.github.io/">Philipp
-                          Henzler</a>,
-                        <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-                        <strong>Jonathan T. Barron</strong>,
-                        <a href="http://www.ricardomartinbrualla.com/">Ricardo
-                          Martin-Brualla</a>
+                        <strong>David Matthews</strong>,
+                        Andrew Spielberg,
+                        Daniela Rus,
+                        Sam Kriegman,
+                        Josh Bongard
                         <br>
-                        <em>SIGGRAPH Asia</em>, 2023
+                        <em>PNAS</em>, 2023 &nbsp 
                         <br>
-                        <a href="https://camp-nerf.github.io/">project page</a>
+                        <a href="https://robodiff.github.io">project page</a>
                         /
-                        <a href="https://arxiv.org/abs/2308.10902">arXiv</a>
-                        <p></p>
-                        <p>
-                          Preconditioning based on camera parameterization helps
-                          NeRF and camera extrinsics/intrinsics optimize better
-                          together.
-                        </p>
+                        <a href="https://www.pnas.org/doi/10.1073/pnas.2305180120">paper</a>
+                        <!-- <p></p> -->
+                        <!-- <p>
+                          Novel robots from scratch in seconds
+                        </p> -->
                       </td>
                     </tr>
 
-                    <tr onmouseout="zipnerf_stop()"
-                      onmouseover="zipnerf_start()" bgcolor="#ffffd0">
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                        <div class="one">
-                          <div class="two" id='zipnerf_image'><video width=100%
-                              height=100% muted autoplay loop>
-                              <source src="images/zipnerf.mp4" type="video/mp4">
-                              Your browser does not support the video tag.
-                            </video></div>
-                          <img src='images/zipnerf.jpg' width="160">
-                        </div>
-                        <script type="text/javascript">
-            function zipnerf_start() {
-              document.getElementById('zipnerf_image').style.opacity = "1";
-            }
-
-            function zipnerf_stop() {
-              document.getElementById('zipnerf_image').style.opacity = "0";
-            }
-            zipnerf_stop()
-          </script>
+                    <!-- ALIFE 2020 -->
+                    <tr>
+                      <td style="padding:16px;width:20%;vertical-align:middle">
+                        <img src="imgs2/alife2020.png" alt="Word2Vec to behavior image" style="border-style: none" width=160>
                       </td>
                       <td style="padding:20px;width:75%;vertical-align:middle">
-                        <a href="http://jonbarron.info/zipnerf">
-                          <span class="papertitle">Zip-NeRF: Anti-Aliased
-                            Grid-Based Neural Radiance Fields</span>
+                        <a href="https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00317">
+                          <span class="papertitle">
+                            Crowd grounding: finding semantic and behavioral alignment through human robot interaction.                          </span>
                         </a>
                         <br>
-                        <strong>Jonathan T. Barron</strong>,
-                        <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-                        <a href="https://scholar.harvard.edu/dorverbin/home">Dor
-                          Verbin</a>,
-                        <a href="https://pratulsrinivasan.github.io/">Pratul
-                          Srinivasan</a>,
-                        <a href="https://phogzone.com/">Peter Hedman</a>
+                        <strong>David Matthews</strong>,
+                        Josh Bongard
                         <br>
-                        <em>ICCV</em>, 2023 &nbsp <font
-                          color="red"><strong>(Oral Presentation, Best Paper
-                            Finalist)</strong></font>
+                        <em>Conf. on Artificial Life (ALIFE).</em>, 2020 &nbsp
+  
                         <br>
-                        <a href="http://jonbarron.info/zipnerf">project page</a>
+                        <a href="https://github.com/davidmatthews1uvm/2020-ALIFE">code</a>
                         /
-                        <a
-                          href="https://www.youtube.com/watch?v=xrrhynRzC8k">video</a>
-                        /
-                        <a href="https://arxiv.org/abs/2304.06706">arXiv</a>
-                        <p></p>
+                        <a href="https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00317">paper</a>
+                        <!-- <p></p>
                         <p>
-                          Combining mip-NeRF 360 and grid-based models like
-                          Instant NGP lets us reduce error rates by 8%&ndash;77%
-                          and accelerate training by 24x.
-                        </p>
+                          Scaling the alignment of language and behavior in robots through crowd-sourced robot reinforcements.
+                        </p> -->
                       </td>
                     </tr>
 
-                    <tr onmouseout="db3d_stop()" onmouseover="db3d_start()">
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                        <div class="one">
-                          <div class="two" id='db3d_image'><video width=100%
-                              height=100% muted autoplay loop>
-                              <source src="images/owl.mp4" type="video/mp4">
-                              Your browser does not support the video tag.
-                            </video></div>
-                          <img src='images/owl.png' width="160">
-                        </div>
-                        <script type="text/javascript">
-            function db3d_start() {
-              document.getElementById('db3d_image').style.opacity = "1";
-            }
+                    <!-- IROS 2019 -->
+                    <tr>
+                    <td style="padding:16px;width:20%;vertical-align:middle">
+                      <img src="imgs2/iros2019.png" alt="Word2Vec to behavior image" style="border-style: none" width=160>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                      <a href="https://ieeexplore.ieee.org/document/8967639">
+                        <span class="papertitle">
+                          Word2vec to behavior: morphology facilitates the grounding of language in machines.
+                        </span>
+                      </a>
+                      <br>
+                      <strong>David Matthews</strong>,
+                      Sam Kriegman,
+                      Collin Cappelle,
+                      Josh Bongard
+                      <br>
+                      <em>IEEE IROS</em>, 2019 &nbsp
 
-            function db3d_stop() {
-              document.getElementById('db3d_image').style.opacity = "0";
-            }
-            db3d_stop()
-          </script>
+                      <br>
+                      <a href="https://github.com/davidmatthews1uvm/2019-IROS">code</a>
+                      /
+                      <a href="https://ieeexplore.ieee.org/document/8967639">paper</a>
+                      <!-- <p></p>
+                      <p>
+                        Enabling machines to respond appropriately to natural language commands through aligning linguistic embeddings with motor actions.
+                      </p> -->
+                    </td>
+                  </tr>
+                    
+                  </tbody></table>
+              <!-- Non Paper Items -->
+                <!-- <table width="100%" align="center" border="0"
+                  cellpadding="20"><tbody>
+                    <tr>
+                      <td
+                        style="padding:20px;width:25%;vertical-align:middle">
+                        <img src="images/cs188.jpg" alt="cs188">
                       </td>
-                      <td style="padding:20px;width:75%;vertical-align:middle">
-                        <a href="https://dreambooth3d.github.io/">
-                          <span class="papertitle">DreamBooth3D: Subject-Driven
-                            Text-to-3D Generation</span>
-                        </a>
-                        <br>
-
-                        <a href="https://amitraj93.github.io/">Amit Raj</a>, <a
-                          href="https://www.linkedin.com/in/srinivas-kaza-64223b74">Srinivas
-                          Kaza</a>, <a href="https://poolio.github.io/">Ben
-                          Poole</a>, <a
-                          href="https://m-niemeyer.github.io/">Michael
-                          Niemeyer</a>, <a
-                          href="https://natanielruiz.github.io/">Nataniel
-                          Ruiz</a>,
-                        <a href="https://bmild.github.io/">Ben Mildenhall</a>,
+                      <td width="75%" valign="center">
                         <a
-                          href="https://scholar.google.com/citations?user=I2qheksAAAAJ">Shiran
-                          Zada</a>, <a
-                          href="https://kfiraberman.github.io/">Kfir
-                          Aberman</a>, <a
-                          href="http://people.csail.mit.edu/mrub/">Michael
-                          Rubinstein</a>,
-                        <strong>Jonathan T. Barron</strong>, <a
-                          href="http://people.csail.mit.edu/yzli/">Yuanzhen
-                          Li</a>, <a
-                          href="https://varunjampani.github.io/">Varun
-                          Jampani</a>
-                        <br>
-                        <em>ICCV</em>, 2023
-                        <br>
-                        <a href="https://dreambooth3d.github.io/">project
-                          page</a> /
-                        <a href="https://arxiv.org/abs/2303.13508">arXiv</a>
-                        <p></p>
-                        <p>Combining DreamBooth (personalized text-to-image) and
-                          DreamFusion (text-to-3D) yields high-quality,
-                          subject-specific 3D assets with text-driven
-                          modifications</p>
-                      </td>
-                    </tr>
-
-                    <tr onmouseout="bakedsdf_stop()"
-                      onmouseover="bakedsdf_start()">
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                        <div class="one">
-                          <div class="two" id='bakedsdf_image'><video width=100%
-                              height=100% muted autoplay loop>
-                              <source src="images/bakedsdf_after.mp4"
-                                type="video/mp4">
-                              Your browser does not support the video tag.
-                            </video></div>
-                          <img src='images/bakedsdf_before.jpg' width="160">
-                        </div>
-                        <script type="text/javascript">
-            function bakedsdf_start() {
-              document.getElementById('bakedsdf_image').style.opacity = "1";
-            }
-
-            function bakedsdf_stop() {
-              document.getElementById('bakedsdf_image').style.opacity = "0";
-            }
-            bakedsdf_stop()
-          </script>
-                      </td>
-                      <td style="padding:20px;width:75%;vertical-align:middle">
-                        <a href="https://bakedsdf.github.io/">
-                          <span class="papertitle">BakedSDF: Meshing Neural SDFs
-                            for Real-Time View Synthesis</span>
-                        </a>
-                        <br>
-                        <a href="https://lioryariv.github.io/">Lior Yariv*</a>,
-                        <a href="https://phogzone.com/">Peter Hedman*</a>,
-                        <a href="https://creiser.github.io/">Christian
-                          Reiser</a>,
-                        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-                        <br>
-                        <a href="https://pratulsrinivasan.github.io/">Pratul
-                          Srinivasan</a>,
-                        <a
-                          href="https://szeliski.org/RichardSzeliski.htm">Richard
-                          Szeliski</a>,
-                        <strong>Jonathan T. Barron</strong>,
-                        <a href="https://bmild.github.io/">Ben Mildenhall</a>
-                        <br>
-                        <em>SIGGRAPH</em>, 2023
-                        <br>
-                        <a href="https://bakedsdf.github.io/">project page</a>
-                        /
-                        <a
-                          href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a>
-                        /
-                        <a href="https://arxiv.org/abs/2302.14859">arXiv</a>
-                        <p></p>
-                        <p>
-                          We use SDFs to bake a NeRF-like model into a high
-                          quality mesh and do real-time view synthesis.
-                        </p>
-                      </td>
-                    </tr>
-
-                    <tr onmouseout="merf_stop()" onmouseover="merf_start()">
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                        <div class="one">
-                          <div class="two" id='merf_image'><video width=100%
-                              height=100% muted autoplay loop>
-                              <source src="images/merf_after.mp4"
-                                type="video/mp4">
-                              Your browser does not support the video tag.
-                            </video></div>
-                          <img src='images/merf_before.jpg' width="160">
-                        </div>
-                        <script type="text/javascript">
-            function merf_start() {
-              document.getElementById('merf_image').style.opacity = "1";
-            }
-
-            function merf_stop() {
-              document.getElementById('merf_image').style.opacity = "0";
-            }
-            merf_stop()
-          </script>
-                      </td>
-                      <td style="padding:20px;width:75%;vertical-align:middle">
-                        <a href="https://merf42.github.io/">
-                          <span class="papertitle">MERF: Memory-Efficient
-                            Radiance Fields for Real-time View Synthesis in
-                            Unbounded Scenes</span>
-                        </a>
-                        <br>
-                        <a href="https://creiser.github.io/">Christian
-                          Reiser</a>,
-                        <a
-                          href="https://szeliski.org/RichardSzeliski.htm">Richard
-                          Szeliski</a>,
-                        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-                        <a href="https://pratulsrinivasan.github.io/">Pratul
-                          Srinivasan</a>, <br>
-                        <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-                        <a href="https://www.cvlibs.net/">Andreas Geiger</a>,
-                        <strong>Jonathan T. Barron</strong>,
-                        <a href="https://phogzone.com/">Peter Hedman</a>
-                        <br>
-                        <em>SIGGRAPH</em>, 2023
-                        <br>
-                        <a href="https://merf42.github.io/">project page</a>
-                        /
-                        <a
-                          href="https://www.youtube.com/watch?v=3EACM2JAcxc">video</a>
-                        /
-                        <a href="https://arxiv.org/abs/2302.12249">arXiv</a>
-                        <p></p>
-                        <p>
-                          We use volumetric rendering with a sparse 3D feature
-                          grid and 2D feature planes to do real-time view
-                          synthesis.
-                        </p>
-                      </td>
-                    </tr>
-
-                    <tr onmouseout="alignerf_stop()"
-                      onmouseover="alignerf_start()">
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                        <div class="one">
-                          <div class="two" id='alignerf_image'>
-                            <img src='images/alignerf_after.jpg'
-                              width="160"></div>
-                          <img src='images/alignerf_before.jpg' width="160">
-                        </div>
-                        <script type="text/javascript">
-            function alignerf_start() {
-              document.getElementById('alignerf_image').style.opacity = "1";
-            }
-
-            function alignerf_stop() {
-              document.getElementById('alignerf_image').style.opacity = "0";
-            }
-            alignerf_stop()
-          </script>
-                      </td>
-                      <td style="padding:20px;width:75%;vertical-align:middle">
-                        <a href="https://yifanjiang19.github.io/alignerf">
-                          <span class="papertitle">AligNeRF: High-Fidelity
-                            Neural Radiance Fields via Alignment-Aware
-                            Training</span>
-                        </a>
-                        <br>
-                        <a href="https://yifanjiang.net/">Yifan Jiang</a>,
-                        <a href="https://phogzone.com/">Peter Hedman</a>,
-                        <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-                        <a href="https://ir1d.github.io/">Dejia Xu</a>, <br>
-                        <strong>Jonathan T. Barron</strong>,
-                        <a
-                          href="https://spark.adobe.com/page/CAdrFMJ9QeI2y/">Zhangyang
-                          Wang</a>,
-                        <a href="https://tianfan.info/">Tianfan Xue</a>
-                        <br>
-                        <em>CVPR</em>, 2023
+                          href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate
+                          Student Instructor, CS188 Spring 2011</a>
                         <br>
                         <a
-                          href="https://yifanjiang19.github.io/alignerf">project
-                          page</a>
-                        /
-                        <a href="https://arxiv.org/abs/2211.09682">arXiv</a>
-                        <p></p>
-                        <p>
-                          Accounting for misalignment due to scene motion or
-                          calibration errors improves NeRF reconstruction
-                          quality.
-                        </p>
-                      </td>
-                    </tr>
-
-                    <tr onmouseout="dreamfusion_stop()"
-                      onmouseover="dreamfusion_start()" bgcolor="#ffffd0">
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                        <div class="one">
-                          <div class="two" id='dreamfusion_image'><video
-                              width=100% height=100% muted autoplay loop>
-                              <source src="images/dreamfusion.mp4"
-                                type="video/mp4">
-                              Your browser does not support the video tag.
-                            </video></div>
-                          <img src='images/dreamfusion.jpg' width="160">
-                        </div>
-                        <script type="text/javascript">
-        function dreamfusion_start() {
-          document.getElementById('dreamfusion_image').style.opacity = "1";
-        }
-
-        function dreamfusion_stop() {
-          document.getElementById('dreamfusion_image').style.opacity = "0";
-        }
-        dreamfusion_stop()
-      </script>
-                      </td>
-                      <td style="padding:20px;width:75%;vertical-align:middle">
-                        <a href="https://dreamfusion3d.github.io/">
-                          <span class="papertitle">DreamFusion: Text-to-3D using
-                            2D Diffusion</span>
-                        </a>
+                          href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate
+                          Student Instructor, CS188 Fall 2010</a>
                         <br>
-                        <a href="https://cs.stanford.edu/~poole/">Ben Poole</a>,
-                        <a href="https://www.ajayj.com/">Ajay Jain</a>,
-                        <strong>Jonathan T. Barron</strong>,
-                        <a href="https://bmild.github.io/">Ben Mildenhall</a>
-                        <br>
-                        <em>ICLR</em>, 2023 &nbsp <font
-                          color="red"><strong>(Oral Presentation, Outstanding
-                            Paper Award)</strong></font>
-                        <br>
-                        <a href="https://dreamfusion3d.github.io/">project
-                          page</a>
-                        /
-                        <a href="https://arxiv.org/abs/2209.14988">arXiv</a>
-                        /
-                        <a
-                          href="https://dreamfusion3d.github.io/gallery.html">gallery</a>
-                        <p></p>
-                        <p>
-                          We optimize a NeRF from scratch using a pretrained
-                          text-to-image diffusion model to do text-to-3D
-                          generative modeling.
-                        </p>
-                      </td>
-                    </tr>
-
-                    <tr onmouseout="guandao_stop()"
-                      onmouseover="guandao_start()">
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                        <div class="one">
-                          <div class="two" id='guandao_image'>
-                            <img src='images/guandao_after.png'
-                              width="160"></div>
-                          <img src='images/guandao_before.png' width="160">
-                        </div>
-                        <script type="text/javascript">
-      function guandao_start() {
-        document.getElementById('guandao_image').style.opacity = "1";
-      }
-
-      function guandao_stop() {
-        document.getElementById('guandao_image').style.opacity = "0";
-      }
-      guandao_stop()
-    </script>
-                      </td>
-                      <td style="padding:20px;width:75%;vertical-align:middle">
-                        <a href="https://arxiv.org/abs/2304.14473">
-                          <span class="papertitle">Learning a Diffusion Prior
-                            for NeRFs</span>
-                        </a>
-                        <br>
-                        <a href="https://www.guandaoyang.com/">Guandao Yang</a>,
-                        <a href="https://abhijitkundu.info/">Abhijit Kundu</a>,
-                        <a
-                          href="https://geometry.stanford.edu/member/guibas/index.html">Leonidas
-                          J. Guibas</a>,
-                        <strong>Jonathan T. Barron</strong>,
-                        <a href="https://cs.stanford.edu/~poole/">Ben Poole</a>
-                        <br>
-                        <em>ICLR Workshop</em>, 2023
-                        <p></p>
-                        <p>
-                          Training a diffusion model on grid-based NeRFs lets
-                          you (conditionally) sample NeRFs.
-                        </p>
-                      </td>
-                    </tr>
-
-                    <tr onmouseout="mira_stop()" onmouseover="mira_start()">
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                        <div class="one">
-                          <div class="two" id='mira_image'>
-                            <img src='images/mira_after.jpg' width="160"></div>
-                          <img src='images/mira_before.jpg' width="160">
-                        </div>
-                        <script type="text/javascript">
-                  function mira_start() {
-                    document.getElementById('mira_image').style.opacity = "1";
-                  }
-
-                  function mira_stop() {
-                    document.getElementById('mira_image').style.opacity = "0";
-                  }
-                  mira_stop()
-                </script>
-                      </td>
-                      <td style="padding:20px;width:75%;vertical-align:middle">
-                        <a href="https://openreview.net/forum?id=AmPeAFzU3a4">
-                          <span class="papertitle">MIRA: Mental Imagery for
-                            Robotic Affordances</span>
-                        </a>
-                        <br>
-                        <a href="https://yenchenlin.me/">Lin Yen-Chen</a>,
-                        <a href="http://www.peteflorence.com/">Pete
-                          Florence</a>,
-                        <a href="https://andyzeng.github.io/">Andy Zeng</a>,
-                        <strong>Jonathan T. Barron</strong>,
-                        <a href="https://yilundu.github.io/">Yilun Du</a>,
-                        <a
-                          href="https://people.csail.mit.edu/weichium/">Wei-Chiu
-                          Ma</a>,
-                        <a href="https://anthonysimeonov.github.io/">Anthony
-                          Simeonov</a>,
-                        <a
-                          href="https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU">Alberto
-                          Rodriguez</a>,
-                        <a href="http://web.mit.edu/phillipi/">Phillip Isola</a>
-                        <br>
-                        <em>CoRL</em>, 2022
-                        <p></p>
-                        <p>
-                          NeRF lets us synthesize novel orthographic views that
-                          work well with pixel-wise algorithms for robotic
-                          manipulation.
-                        </p>
-                      </td>
-                    </tr>
-
-                    <tr onmouseout="samurai_stop()"
-                      onmouseover="samurai_start()">
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                        <div class="one">
-                          <div class="two" id='samurai_image'>
-                            <img src='images/samurai_after.jpg'
-                              width="160"></div>
-                          <img src='images/samurai_before.jpg' width="160">
-                        </div>
-                        <script type="text/javascript">
-                  function samurai_start() {
-                    document.getElementById('samurai_image').style.opacity = "1";
-                  }
-
-                  function samurai_stop() {
-                    document.getElementById('samurai_image').style.opacity = "0";
-                  }
-                  samurai_stop()
-                </script>
-                      </td>
-                      <td style="padding:20px;width:75%;vertical-align:middle">
-                        <a href="https://markboss.me/publication/2022-samurai/">
-                          <span class="papertitle">SAMURAI: Shape And Material
-                            from Unconstrained Real-world Arbitrary Image
-                            Collections</span>
-                        </a>
-                        <br>
-                        <a href="https://markboss.me">Mark Boss</a>,
-                        <a href>Andreas Engelhardt</a>,
-                        <a href="https://abhishekkar.info/">Abhishek Kar</a>,
-                        <a href="http://people.csail.mit.edu/yzli/">Yuanzhen
-                          Li</a>,
-                        <a href="https://deqings.github.io/">Deqing Sun</a>,
-                        <strong>Jonathan T. Barron</strong>,
-                        <a
-                          href="https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/computer-science/lehrstuehle/computergrafik/computer-graphics/staff/prof-dr-ing-hendrik-lensch/">Hendrik
-                          P. A. Lensch</a>,
-                        <a href="https://varunjampani.github.io">Varun
-                          Jampani</a>
-                        <br>
-                        <em>NeurIPS</em>, 2022
-                        <br>
-                        <a
-                          href="https://markboss.me/publication/2022-samurai/">project
-                          page</a> /
-                        <a
-                          href="https://www.youtube.com/watch?v=LlYuGDjXp-8">video</a>
-                        /
-                        <a href="https://arxiv.org/abs/2205.15768">arXiv</a>
-                        <p></p>
-                        <p>
-                          A joint optimization framework for estimating shape,
-                          BRDF, camera pose, and illumination from in-the-wild
-                          image collections.
-                        </p>
+                        <a href="http://aima.cs.berkeley.edu/">Figures,
+                          "Artificial Intelligence: A Modern Approach",
+                          3rd Edition</a>
                       </td>
                     </tr>
                     <tr>
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                        <img src="images/clean_promo.jpg" alt="clean-usnob" width="160" height="160">
+                      <td align="center"
+                        style="padding:20px;width:25%;vertical-align:middle">
+                        <h2>Basically <br> Blog Posts</h2>
                       </td>
                       <td width="75%" valign="middle">
-                        <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing">
-                          <span class="papertitle">Cleaning the USNO-B Catalog Through Automatic Detection of Optical Artifacts</span>
-                        </a>
+                        <a
+                          href="https://arxiv.org/abs/2112.11687">Squareplus:
+                          A Softplus-Like Algebraic Rectifier</a>
                         <br>
-                        <strong>Jonathan T. Barron</strong>, <a href="http://stumm.ca/">Christopher Stumm</a>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>
+                        <a href="https://arxiv.org/abs/2010.09714">A
+                          Convenient Generalization of Schlick's Bias
+                          and Gain Functions</a>
                         <br>
-                        <em>The Astronomical Journal</em>, 135, 2008
-                        <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
-                        <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>
+                        <a
+                          href="https://arxiv.org/abs/1704.07483">Continuously
+                          Differentiable Exponential Linear Units</a>
+                        <br>
+                        <a
+                          href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars
+                          & Big Models: How Can Academics Adapt?</a>
                       </td>
                     </tr>
+                  </tbody></table> -->
 
-                          </tbody></table>
-
-                        
-                        <table width="100%" align="center" border="0"
-                          cellpadding="20"><tbody>
-                            <tr>
-                              <td
-                                style="padding:20px;width:25%;vertical-align:middle">
-                                <img src="images/cs188.jpg" alt="cs188">
-                              </td>
-                              <td width="75%" valign="center">
-                                <a
-                                  href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate
-                                  Student Instructor, CS188 Spring 2011</a>
-                                <br>
-                                <a
-                                  href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate
-                                  Student Instructor, CS188 Fall 2010</a>
-                                <br>
-                                <a href="http://aima.cs.berkeley.edu/">Figures,
-                                  "Artificial Intelligence: A Modern Approach",
-                                  3rd Edition</a>
-                              </td>
-                            </tr>
-
-                            <tr>
-                              <td align="center"
-                                style="padding:20px;width:25%;vertical-align:middle">
-                                <h2>Basically <br> Blog Posts</h2>
-                              </td>
-                              <td width="75%" valign="middle">
-                                <a
-                                  href="https://arxiv.org/abs/2112.11687">Squareplus:
-                                  A Softplus-Like Algebraic Rectifier</a>
-                                <br>
-                                <a href="https://arxiv.org/abs/2010.09714">A
-                                  Convenient Generalization of Schlick's Bias
-                                  and Gain Functions</a>
-                                <br>
-                                <a
-                                  href="https://arxiv.org/abs/1704.07483">Continuously
-                                  Differentiable Exponential Linear Units</a>
-                                <br>
-                                <a
-                                  href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars
-                                  & Big Models: How Can Academics Adapt?</a>
-                              </td>
-                            </tr>
-
-                          </tbody></table>
-                        <table
-                          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-                            <tr>
-                              <td style="padding:0px">
-                                <br>
-                                <p style="text-align:right;font-size:small;">
-                                  Feel free to steal this website's <a
-                                    href="https://github.com/jonbarron/jonbarron_website">source
-                                    code</a>. <strong>Do not</strong> scrape the
-                                  HTML from this page itself, as it includes
-                                  analytics tags that you do not want on your
-                                  own website &mdash; use the github code
-                                  instead. Also, consider using <a
-                                    href="https://leonidk.com/">Leonid
-                                    Keselman</a>'s <a
-                                    href="https://github.com/leonidk/new_website">Jekyll
-                                    fork</a> of this page.
-                                </p>
-                              </td>
-                            </tr>
-                          </tbody></table>
+              <!-- Footer -->
+                <table
+                  style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                    <tr>
+                      <td style="padding:0px">
+                        <br>
+                        <p style="text-align:right;font-size:small;">
+                          Feel free to steal this website's <a
+                            href="https://github.com/jonbarron/jonbarron_website">source
+                            code</a>. <strong>Do not</strong> scrape the
+                          HTML from this page itself, as it includes
+                          analytics tags that you do not want on your
+                          own website &mdash; use the github code
+                          instead. Also, consider using <a
+                            href="https://leonidk.com/">Leonid
+                            Keselman</a>'s <a
+                            href="https://github.com/leonidk/new_website">Jekyll
+                            fork</a> of this page.
+                        </p>
                       </td>
                     </tr>
-                  </table>
-                </body>
-              </html>
+                  </tbody></table>
+              </td>
+            </tr>
+          </table>
+        </body>
+      </html>
